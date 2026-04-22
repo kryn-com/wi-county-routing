@@ -1,0 +1,33 @@
+id,name,address,lon,lat,ors_label,geocode_status
+0,MSN Airport,"4000 International Ln, Madison, WI 53704",-89.33651,43.157573,"4000 International Lane, Madison, WI, USA",OK
+1,Milwaukee,"3144 S Howell Ave, Milwaukee, WI 53207",-87.904486,42.987246,"3144 South Howell Avenue, Milwaukee, WI, USA",OK
+2,Ashland County,"201 W Main St, Ashland, WI 54806",-90.885398,46.590978,"201 Main Street West, Ashland, WI, USA",OK
+3,Barron County,"330 E La Salle Ave, Barron, WI 54812",-91.835124,45.401121,"East la Salle Avenue, Canton, WI, USA",OK
+4,Bayfield County,"117 E 5th St, Washburn, WI 54891",-90.893395,46.676879,"117 East 5th Street, Washburn, WI, USA",OK
+5,Buffalo County,"407 S 2nd St, Alma, WI 54610",-91.911533,44.315557,"South 2nd Street, Alma, WI, USA",OK
+6,Burnett County,"7410 County Road K, Siren, WI 54872",-92.329525,45.771599,"Siren, WI, USA",OK
+7,Chippewa County,"711 N Bridge St, Chippewa Falls, WI 54729",-91.398607,44.94152,"North Bridge Street, Chippewa Falls, WI, USA",OK
+8,Clark County,"517 Court St, Neillsville, WI 54456",-90.594408,44.560336,"517 Court Street, Neillsville, WI, USA",OK
+9,Douglas County,"1313 Belknap St, Superior, WI 54880",-92.097128,46.721585,"1313 Belknap Street, Superior, WI, USA",OK
+10,Florence County,"501 Lake Ave, Florence, WI 54121",-88.249161,45.920949,"501 Lake Avenue, Florence, WI, USA",OK
+11,Forest County,"200 E Madison St, Crandon, WI 54520",-88.897242,45.569452,"East Madison Street, Crandon, WI, USA",OK
+12,Iron County,"300 Taconite St, Hurley, WI 54534",-90.184296,46.444294,"300 Taconite Street, Hurley, WI, USA",OK
+13,La Crosse County,"333 Vine St, La Crosse, WI 54601",-91.250068,43.814639,"333 Vine Street, La Crosse, WI, USA",OK
+14,Langlade County,"800 Clermont St, Antigo, WI 54409",-89.153793,45.155886,"Clermont Street, Antigo, WI, USA",OK
+15,Lincoln County,"1110 E Main St, Merrill, WI 54452",-89.687138,45.179883,"East Main Street, Merrill, WI, USA",OK
+16,Marathon County,"500 Forest St, Wausau, WI 54403",-89.624811,44.957762,"500 Forest Street, Wausau, WI, USA",OK
+17,Marinette County,"1926 Hall Ave, Marinette, WI 54143",-87.633327,45.100171,"1926 Hall Avenue, Marinette, WI, USA",OK
+18,Menominee County,"W3269 Courthouse Ln, Keshena, WI 54135",-88.651855,44.886145,"Courthouse Lane, Keshena, WI, USA",OK
+19,Oconto County,"301 Washington St, Oconto, WI 54153",-87.865946,44.890293,"301 Washington Street, Oconto, WI, USA",OK
+20,Oneida County,"1 S Oneida Ave, Rhinelander, WI 54501",-89.407808,45.637858,"1 South Oneida Avenue, Rhinelander, WI, USA",OK
+21,Pepin County,"740 7th Ave W, Durand, WI 54736",-91.967061,44.622644,"740 7th Avenue West, Durand, WI, USA",OK
+22,Pierce County,"414 W Main St, Ellsworth, WI 54011",-92.480986,44.732071,"West Main Street, Ellsworth, WI, USA",OK
+23,Polk County,"1005 W Main St, Balsam Lake, WI 54810",-92.471897,45.452722,"1005 West Main Street, Balsam Lake, WI, USA",OK
+24,Price County,"126 Cherry St, Phillips, WI 54555",-90.398469,45.690413,"126 Cherry Street, Phillips, WI, USA",OK
+25,Rusk County,"311 Miner Ave E, Ladysmith, WI 54848",-91.097586,45.464765,"311 Miner Avenue East, Ladysmith, WI, USA",OK
+26,Sawyer County,"10610 Main St, Hayward, WI 54843",-91.486479,46.016643,"10610 Main Street, Hayward, WI, USA",OK
+27,Shawano County,"311 N Main St, Shawano, WI 54166",-88.60945,44.783955,"North Main Street, Shawano, WI, USA",OK
+28,Taylor County,"224 S 2nd St, Medford, WI 54451",-90.34121,45.134938,"South 2nd Street, Medford, WI, USA",OK
+29,Vernon County,"400 Courthouse Square, Viroqua, WI 54665",-90.831234,43.589763,"Viroqua, WI, USA",OK
+30,Vilas County,"330 Court St, Eagle River, WI 54521",-89.250688,45.919954,"330 Court Street, Eagle River, WI, USA",OK
+31,Washburn County,"10 4th Ave, Shell Lake, WI 54871",-91.925274,45.742089,"4th Avenue, Shell Lake, WI, USA",OK
