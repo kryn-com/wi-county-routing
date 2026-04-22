@@ -70,19 +70,19 @@ def main():
     print(" → ".join(map(str, route)))
     print(f"Total travel time: {total_time / 3600:.2f} hours")
 
-    # Build the output object (THIS was missing)
+    # ✅ BUILD OUTPUT OBJECT (THIS WAS MISSING)
     out = {
         "route_ids": route,
         "total_seconds": int(total_time),
         "total_hours": total_time / 3600.0
     }
 
-    # Write the output file (indentation fixed)
+    # ✅ WRITE THE FILE (INDENTATION FIXED)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
 
     print(f"Wrote {OUT_PATH.resolve()}")
 
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
