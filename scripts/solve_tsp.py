@@ -1,7 +1,10 @@
 import json
 from ortools.constraint_solver import routing_enums_pb2
 from ortools.constraint_solver import pywrapcp
+from pathlib import Path
 
+OUT_PATH = Path("data") / "route_solution.json"
+OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 def load_data():
     with open("data/time_matrix.json", "r", encoding="utf-8") as f:
