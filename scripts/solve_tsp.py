@@ -13,7 +13,7 @@ def load_data():
     data = {}
     # OR-Tools expects integers
     data["time_matrix"] = [
-        [int(x) for x in row] for row in matrix["durations"]
+        [int(round(x)) for x in row] for row in matrix["durations"]
     ]
     data["num_vehicles"] = 1
     data["depot"] = 0
@@ -70,10 +70,19 @@ def main():
     print(" → ".join(map(str, route)))
     print(f"Total travel time: {total_time / 3600:.2f} hours")
 
+    # Build the output object (THIS was missing)
+    out = {
+        "route_ids": route,
+        "total_seconds": int(total_time),
+        "total_hours": total_time / 3600.0
+    }
+
+    # Write the output file (indentation fixed)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
-    json.dump(out, f, indent=2)
+        json.dump(out, f, indent=2)
 
-print(f"Wrote {OUT_PATH.resolve()}")
+    print(f"Wrote {OUT_PATH.resolve()}")
 
-if __name__ == "__main__":
-    main()
+
+    if __name__ == "__main__":
+        main()
