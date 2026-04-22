@@ -1,0 +1,36 @@
+name: Geocode stops (ORS)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt         
+
+      - name: Run geocoding
+        env:
+          ORS_API_KEY: ${{ secrets.ORS_API_KEY }}
+        run: python scripts/geocode_ors.py   
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: geocoding-output
+          path: |
+            data/geocoded.csv
+            data/geocode_cache.json    
+
+
+
+            
