@@ -1,0 +1,29 @@
+name: Solve TSP (OR-Tools)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Solve route with OR-Tools
+        run: python scripts/solve_tsp.py
+
+      - name: Upload solution artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tsp-solution
+          path: |
+            data/route_solution.json
