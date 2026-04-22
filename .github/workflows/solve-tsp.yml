@@ -21,9 +21,16 @@ jobs:
       - name: Solve route with OR-Tools
         run: python scripts/solve_tsp.py
 
+      - name: List data folder (debug)
+        run: |
+          echo "PWD=$(pwd)"
+          ls -la
+          ls -la data || true
+
       - name: Upload solution artifact
         uses: actions/upload-artifact@v4
         with:
           name: tsp-solution
-          path: |
-            data/route_solution.json
+          path: data/route_solution.json
+          if-no-files-found: error
+
