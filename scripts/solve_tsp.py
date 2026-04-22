@@ -70,6 +70,10 @@ def main():
     print(" → ".join(map(str, route)))
     print(f"Total travel time: {total_time / 3600:.2f} hours")
 
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
+    json.dump(out, f, indent=2)
+
+print(f"Wrote {OUT_PATH.resolve()}")
 
 if __name__ == "__main__":
     main()
